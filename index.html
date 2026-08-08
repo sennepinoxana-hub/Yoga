@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Douceur Yoga — séances intimistes à Paris 17e.">
+    <title>Douceur Yoga · Paris 17e</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="accueil">
+        <nav class="nav" aria-label="Navigation principale">
+          <a class="brand" href="#accueil">Douceur <span>Yoga</span></a>
+          <div class="nav-actions">
+            <button class="language" type="button" aria-label="Changer de langue"><span data-lang="fr">FR</span><i>/</i><span data-lang="ru">RU</span></button>
+            <a class="nav-book" href="#reserver" data-i18n="navBook">Réserver</a>
+          </div>
+        </nav>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="eyebrow">PARIS · 17<sup>e</sup> ARRONDISSEMENT</p>
+          <h1 data-i18n="heroTitle">Un moment pour<br><em>revenir à vous.</em></h1>
+          <p class="hero-copy" data-i18n="heroCopy">Yoga en petit groupe, dans une atmosphère douce et lumineuse. 45 minutes pour respirer, bouger et vous déposer.</p>
+          <a class="button button-light" href="#reserver" data-i18n="heroButton">Choisir ma séance <span>→</span></a>
+        </div>
+        <p class="scroll" data-i18n="scroll">découvrir <span>↓</span></p>
+      </section>
+
+      <section class="intro section">
+        <p class="eyebrow dark" data-i18n="introEyebrow">L'ESPRIT DOUCEUR YOGA</p>
+        <div class="intro-grid">
+          <h2 data-i18n="introTitle">Prendre le temps.<br><em>Tout simplement.</em></h2>
+          <div>
+            <p data-i18n="introText">Je vous accueille dans un espace calme et chaleureux du 17<sup>e</sup>, pensé pour vous offrir une parenthèse loin du rythme parisien.</p>
+            <p data-i18n="introText2">Chaque séance est accessible, attentive au corps de chacun et limitée à un petit groupe. L'adresse vous sera communiquée personnellement après votre préinscription.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="details section">
+        <div class="detail"><span class="detail-number">01</span><h3 data-i18n="detailOneTitle">En petit comité</h3><p data-i18n="detailOneText">Pour être guidé·e avec attention, dans une ambiance simple et bienveillante.</p></div>
+        <div class="detail"><span class="detail-number">02</span><h3 data-i18n="detailTwoTitle">Deux rendez-vous</h3><p data-i18n="detailTwoText">À midi ou en soirée : choisissez le moment qui vous ressemble.</p></div>
+        <div class="detail"><span class="detail-number">03</span><h3 data-i18n="detailThreeTitle">Adresse confidentielle</h3><p data-i18n="detailThreeText">Dans le 17e arrondissement ; les indications d'accès sont envoyées après confirmation.</p></div>
+      </section>
+
+      <section class="schedule section" id="seances">
+        <div class="schedule-heading"><p class="eyebrow dark" data-i18n="scheduleEyebrow">LES SÉANCES</p><h2 data-i18n="scheduleTitle">Votre pause<br><em>yoga à Paris.</em></h2></div>
+        <div class="sessions">
+          <article class="session"><div><p class="session-time">12:00 <span>— 12:45</span></p><h3 data-i18n="noonTitle">La pause de midi</h3><p data-i18n="noonText">Une respiration au cœur de la journée.</p></div><a href="#reserver" class="round-arrow" aria-label="Réserver la séance de midi">↗</a></article>
+          <article class="session"><div><p class="session-time">19:00 <span>— 19:45</span></p><h3 data-i18n="eveningTitle">Le temps du soir</h3><p data-i18n="eveningText">Dénouer la journée et retrouver son calme.</p></div><a href="#reserver" class="round-arrow" aria-label="Réserver la séance du soir">↗</a></article>
+        </div>
+      </section>
+
+      <section class="booking" id="reserver">
+        <div class="booking-card">
+          <p class="eyebrow dark" data-i18n="bookingEyebrow">PRÉINSCRIPTION</p>
+          <h2 data-i18n="bookingTitle">On se retrouve<br><em>sur le tapis ?</em></h2>
+          <p class="booking-copy" data-i18n="bookingCopy">Choisissez votre créneau et envoyez-moi votre demande sur WhatsApp. Je vous répondrai personnellement avec les détails pratiques et l'adresse.</p>
+          <div class="choices" role="group" aria-label="Choisir un créneau">
+            <button class="choice selected" type="button" data-slot="noon"><strong>12:00</strong><span data-i18n="noonShort">Séance de midi</span></button>
+            <button class="choice" type="button" data-slot="evening"><strong>19:00</strong><span data-i18n="eveningShort">Séance du soir</span></button>
+          </div>
+          <a id="whatsapp-link" class="button button-green" target="_blank" rel="noopener" href="https://wa.me/330635674579?text=Bonjour%20!%20Je%20souhaiterais%20me%20pr%C3%A9inscrire%20%C3%A0%20la%20s%C3%A9ance%20de%2012%3A00%20de%20Douceur%20Yoga."><span data-i18n="whatsappButton">Préinscription par WhatsApp</span> <b>↗</b></a>
+          <p class="booking-note" data-i18n="bookingNote">Aucun paiement ni adresse ne sont demandés ici.</p>
+        </div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#accueil">Douceur <span>Yoga</span></a><p data-i18n="footer">Paris 17<sup>e</sup> · Sur préinscription uniquement</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
